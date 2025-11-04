@@ -70,3 +70,8 @@ Selecione a hora do dia: Entre 12h e 13h (ou o intervalo desejado).
 Clique em Salvar.
 
 Pronto! Seu script será executado automaticamente no agendamento definido.
+
+📝 Observações
+Se o script não encontrar um ID de pasta configurado em CONFIGURACOES, ele registrará um erro no log (Logger) e pulará apenas aquele assunto, continuando a processar os demais.
+
+A busca por assunto (subject:"Assunto Aqui") é sensível a espaços e caracteres especiais. Certifique-se de que o texto configurado seja idêntico ao que você espera no Gmail.
